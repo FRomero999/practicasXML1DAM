@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<horario>
+    <ciclo>DAM</ciclo>
+    <curso>Primero</curso>
+    <aula>Taller de administración</aula>
+    <semana>
+        <dia nombre="lunes">
+            <clase hora="8:00">Progamación</clase>
+            <clase hora="9:00">Sistemas</clase>
+            <clase hora="10:00">BBDD</clase>
+        </dia>
+        
+        <dia nombre="martes">
+            
+        </dia>
+        
+    </semana>
+    
+    <modulos>
+        <modulo nombre="LM">
+            <hora dia="lunes">9:00</hora>
+            <hora dia="miercoles">10:00</hora>
+            <hora dia="miercoles">11:30</hora>
+        </modulo>
+
+        <modulo nombre="PROG">
+            <hora dia="lunes">9:00</hora>
+            <hora dia="miercoles">10:00</hora>
+            <hora dia="miercoles">11:30</hora>
+            <hora dia="miercoles">10:00</hora>
+            <hora dia="miercoles">11:30</hora>
+            <hora dia="miercoles">11:30</hora>
+        </modulo>
+
+                
+    </modulos>
+</horario>
+
