@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Esto es un comentario  -->
+<almacen>
+    <productos>​
+        <articulo>​
+            <nombre>Refresco 1LT</nombre>​
+            <precio moneda="euro&" iva="21">125</precio>​
+            <cantidad>56</cantidad>
+            <descatalogado />
+            <descripcion><![CDATA[Refresco con sabor a <strong>cola y limón</strong>.]]></descripcion>
+        </articulo>​     
+        <articulo>​
+            <nombre>Agua 1LT</nombre>​
+            <precio>0.85</precio>​
+            <cantidad>78776</cantidad>
+        </articulo>​
+    </productos>
+</almacen>
+
