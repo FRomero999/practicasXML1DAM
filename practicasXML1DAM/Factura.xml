@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<factura numero="999">
+    
+    <fecha></fecha>
+    <pedido></pedido>
+    <formadepago></formadepago>
+    <baseimponible>423423</baseimponible>
+    <cuotaiva>3423</cuotaiva>
+    <total>34423432</total>
+        
+    <emisor cif="73837289">
+        <nombre></nombre>
+        <domicilio></domicilio>
+        <cp></cp>
+        <localidad></localidad>
+        <telefono></telefono>            
+    </emisor>
+    
+    <cliente>
+        ...
+    </cliente>
+    
+    <articulos>
+        <articulo ref="dasdas" cantidad="1" precio="54" iva="16%">Micro pentium iv</articulo>
+        ...
+    </articulos>
+    
+</factura>
+

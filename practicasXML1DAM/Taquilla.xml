@@ -26,6 +26,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
 
                 </peliculas>
             </taquilla>
+            
             <taquilla >
                 <fecha-inicial>01/01/2023</fecha-inicial>
                 <fecha-final>04/01/2023</fecha-final>
