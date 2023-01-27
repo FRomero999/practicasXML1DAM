@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<root>
+
+    <peticion user="56346654" req="5790854" date="">
+        <region>Málaga</region>
+        <fecha>29/1/2020</fecha>
+    </peticion>
+        
+        
+    <respuesta req="5790854">
+        <status>error</status>
+        <prevision>nubes</prevision>
+        <descripcion>Intervalos nubosos con bajo riesgo de lluvias</descripcion>
+        <dia>domingo</dia>
+        <informacion>
+            <temperatura>12</temperatura>
+            <presion>878</presion>
+        </informacion>
+    </respuesta>
+    
+</root>
+
