@@ -1,0 +1,26 @@
+
+
+{
+    "respuesta":321321321,
+    "status":"ok",
+    "descripcion":"djñlsjdasñldjasñl",
+    "dia":"lunes",
+    "informacion":{
+        "humedad":6554,
+        "temperatura":54
+    },
+    "historico_temp":[
+        {
+            "fecha":"23/1/23",
+            "temp":12
+        },
+        {
+            "fecha":"24/1/23",
+            "temp":15
+        },
+        {
+            "fecha":"25/1/23",
+            "temp":16
+        }   
+    ]
+}

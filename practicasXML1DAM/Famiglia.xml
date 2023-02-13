@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE famiglia[
+    <!ELEMENT famiglia (persona+) >
+    
+    <!ELEMENT persona (nombre,apellidos,email+,parentesco) >
+    <!ATTLIST persona dni ID #IMPLIED >
+    <!ATTLIST persona edad CDATA #REQUIRED >
+    
+    <!ELEMENT nombre (#PCDATA) >
+    <!ELEMENT apellidos (#PCDATA) >
+    <!ELEMENT email (#PCDATA) >
+    <!ELEMENT parentesco (#PCDATA) >
+        
+]>
+
+
+<famiglia>
+
+    <persona dni="a323321421" edad="50">
+        <nombre>Vito</nombre>
+        <apellidos>Corleone</apellidos>
+        <email>vito@cesurformacion.com</email>
+        <email>vito@famiglia.com</email>
+        <email>vito@onlyfans.com</email>       
+        <parentesco>Padrino</parentesco>
+    </persona>
+
+    <persona dni="a323321422" edad="56">
+        <nombre>Toni</nombre>
+        <apellidos>Soprano</apellidos>
+        <email>toni@cesurformacion.com</email>
+        <parentesco>Capo</parentesco>
+    </persona>
+        
+</famiglia>
+

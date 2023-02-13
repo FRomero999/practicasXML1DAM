@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE html[
+<!ELEMENT html ANY >
+<!ELEMENT p (#PCDATA|a)* >
+<!ELEMENT a (#PCDATA)>
+]>
+
+
+<html>
+    <p>
+        ewqeqweqw
+        <a>fdsafdsfds</a>
+        eqweqweqw
+        <a>dasdfasdas</a>      
+    </p>
+</html>
+

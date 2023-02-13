@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE centro[
+    <!-- Elemento Raiz -->
+    <!ELEMENT centro (alumnos, profesores) >
+    <!-- Elementos de agrupación principal -->
+    <!ELEMENT alumnos ( alumno+ ) >
+    <!ELEMENT alumno ( contacto, info ) >
+    
+    <!ELEMENT contacto (nombre, apellidos) >
+    <!ELEMENT nombre (#PCDATA) >
+    <!ELEMENT apellidos (#PCDATA) >
+    
+    <!ELEMENT info (ciclo, matriculacion, modulo+) >
+    <!ELEMENT ciclo (#PCDATA) >
+    <!ELEMENT matriculacion (#PCDATA) >
+    
+    <!ELEMENT modulo (#PCDATA) >
+    <!ATTLIST modulo ciclo CDATA #IMPLIED >
+    
+    <!ELEMENT profesores ( profesor+ ) >
+    <!ELEMENT profesor (contacto, modulo+)> 
+    
+]>
+
+
+<centro>
+    <alumnos>
+        <alumno>
+            <contacto>
+                <nombre></nombre>
+                <apellidos></apellidos>
+            </contacto>
+            <info>
+                <ciclo></ciclo>
+                <matriculacion></matriculacion>
+                <modulo></modulo>
+            </info>
+        </alumno>
+    </alumnos>
+    <profesores>
+        <profesor>
+            <contacto>
+                <nombre></nombre>
+                <apellidos></apellidos>
+            </contacto>
+            <modulo ciclo="DAM"></modulo>
+        </profesor>
+    </profesores>
+</centro>
+

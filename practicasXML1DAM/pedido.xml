@@ -3,9 +3,9 @@
 <pedido id="74823729">
     <cliente>Francisco Romero</cliente>
     <contenido>
-        <articulo cantidad="1">PlayStation 5</articulo>
-        <articulo cantidad="5">PlayStation 5</articulo>
-        <articulo cantidad="1">PlayStation 5</articulo>        
+        <articulo>PlayStation 5</articulo>
+        <articulo>Howgarts Legacy</articulo>
+        <articulo>PSVR</articulo>
     </contenido>
     <entrega>
         <tipovia>Calle</tipovia>
