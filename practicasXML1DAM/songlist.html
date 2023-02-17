@@ -4,50 +4,50 @@
         <title>songlist.xsl</title>
         <style>
                     table{
-                        border-collapse: collapse;
-                        border: solid;
+                    border-collapse: collapse;
+                    border: solid;
                     }
                     table tr th{
-                        background-color:black;
-                        color:white;
-                        padding: 1em;
-                        border: solid;
-                        border-color: black;
+                    background-color:black;
+                    color:white;
+                    padding: 1em;
+                    border: solid;
+                    border-color: black;
                     }
                     table tr td{
-                        padding: 1em;
-                        border: solid;
+                    padding: 1em;
+                    border: solid;
                     }
                     body{
-                        display: flex;
-                        flex-direction: column;
-                        align-items:center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
                     }
                     h1{
-                        margin: 2em;
+                    margin: 2em;
                     }
                     p{
-                        text-align:center;
+                    text-align:center;
+                    }
+                    tr.top td{
+                    background-color:yellow;
                     }
                 </style>
     </head>
     <body>
         <h1>Listado de canciones</h1>
-        <h3>23</h3>
+        <h3>499</h3>
         <table>
             <tr>
                 <th>Titulo</th><th>Disco</th><th>Cantante</th><th>Escritor</th><th>Productor</th><th>Fecha</th><th>Racha</th><th>Posici&oacute;n</th>
             </tr>
-            <tr>
-                <td>Hey Jude</td><td>1 (Capitol/Apple) </td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>Aug, 1968</td><td>19 weeks</td><td>No. 1</td>
-            </tr>
-            <tr>
+            <tr class="top">
                 <td>Yesterday</td><td>Help!�(Capitol/Apple)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>Sep, 1965</td><td>11 weeks</td><td>No. 1</td>
             </tr>
-            <tr>
+            <tr class="top">
                 <td>I Want to Hold Your Hand</td><td>Meet the Beatles!�(Capitol/Apple)�</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>Dec, 1963</td><td>15 weeks</td><td>No. 1</td>
             </tr>
-            <tr>
+            <tr class="top">
                 <td>Let It Be</td><td>Let It Be (Capitol/Apple)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>March, 1970</td><td>14 weeks</td><td>No. 1</td>
             </tr>
             <tr>
@@ -56,7 +56,7 @@
             <tr>
                 <td>A Day in the Life</td><td>Sgt. Pepper's Lonely Hearts Club Band�(Capitol)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>June, 1967</td><td>none</td><td>none</td>
             </tr>
-            <tr>
+            <tr class="top">
                 <td>Help!</td><td>Help!�(Capitol)�</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>July, 1965 </td><td>13 weeks</td><td>No. 1</td>
             </tr>
             <tr>
@@ -65,7 +65,7 @@
             <tr>
                 <td>Strawberry Fields Forever</td><td>Magical Mystery Tour (Capitol)  </td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>Feb. , 1967</td><td>9 weeks</td><td> No. 8</td>
             </tr>
-            <tr>
+            <tr class="top">
                 <td>She Loves You</td><td>The Beatles 1 (Capitol/Apple) </td><td>The Beatles</td><td>John Lennon, Paul McCartney </td><td>George Martin </td><td>Sept. , 1963</td><td>15 weeks</td><td> No. 1</td>
             </tr>
             <tr>
@@ -74,19 +74,19 @@
             <tr>
                 <td>Strawberry Fields Forever</td><td>Magical Mystery Tour (Capitol)  </td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>Feb. , 1967</td><td>9 weeks</td><td> No. 8</td>
             </tr>
-            <tr>
+            <tr class="top">
                 <td>She Loves You</td><td>The Beatles 1 (Capitol/Apple) </td><td>The Beatles</td><td>John Lennon, Paul McCartney </td><td>George Martin </td><td>Sept. , 1963</td><td>15 weeks</td><td> No. 1</td>
             </tr>
             <tr>
                 <td>Please Please Me</td><td>Please Please Me (Capitol)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>Feb, 1964</td><td>13 weeks</td><td>No. 3</td>
             </tr>
-            <tr>
+            <tr class="top">
                 <td>A Hard Days Night</td><td>A Hard Day's Night (Capitol)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>July, 1964</td><td>13 weeks</td><td>No. 1</td>
             </tr>
-            <tr>
+            <tr class="top">
                 <td>Come Together</td><td>Abbey Road (Apple)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>Sept. , 1969</td><td>16 weeks</td><td> No. 1</td>
             </tr>
-            <tr>
+            <tr class="top">
                 <td>Cant Buy Me Love</td><td>A Hard Day&rsquo;s Night (Capitol)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>March , 1964</td><td>10 weeks</td><td> No. 1</td>
             </tr>
             <tr>
@@ -95,17 +95,20 @@
             <tr>
                 <td>With a Little Help From My Friends</td><td>Sgt. Pepper&rsquo;s Lonely Hearts Club Band (Apple/Capitol)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>June , 1967</td><td>Non-single</td><td></td>
             </tr>
-            <tr>
+            <tr class="top">
                 <td>Ticket to Ride</td><td>Help! (Capitol/Apple)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>April , 1965</td><td>11 weeks</td><td> No. 1</td>
             </tr>
-            <tr>
+            <tr class="top">
                 <td>All You Need is Love</td><td>Magical Mystery Tour (Capitol)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>July , 1967</td><td>11 weeks</td><td> No. 1</td>
             </tr>
             <tr>
                 <td>Rain</td><td>Past Masters (Capitol/Apple)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>June , 1966</td><td>7 weeks</td><td> No. 23</td>
             </tr>
-            <tr>
+            <tr class="top">
                 <td>Penny Lane</td><td>Magical Mystery Tour (Capitol/Apple)</td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>Feb. , 1967</td><td>10 weeks</td><td> No. 1</td>
+            </tr>
+            <tr style="background-color:pink">
+                <td>Hey Jude</td><td>1 (Capitol/Apple) </td><td>The Beatles</td><td>John Lennon, Paul McCartney</td><td>George Martin</td><td>Aug, 1968</td><td>19 weeks</td><td>No. 1</td>
             </tr>
         </table>
         <p>Created with love for you</p>
